@@ -26,16 +26,16 @@ const projects = [
     color: "red",
     description:
       "A commercial multiplayer WebGL board game for 2-8 players. Build an empire, trade assets and compete for the best result.",
-    image: "/projects/Growshi5PlayerBudgetInfo.png",
+    image: "projects/Growshi5PlayerBudgetInfo.png",
     gallery: [
-      "/projects/Growshi1Dashboard.png",
-      "/projects/Growshi2MainMenu.png",
-      "/projects/Growshi3LobbyWaiting.png",
-      "/projects/Growshi4PlayerLifeStyleCard.png",
-      "/projects/Growshi5PlayerBudgetInfo.png",
-      "/projects/Growshi6PlayerPlayground.png",
-      "/projects/Growshi7PlayerPlayground2.png",
-      "/projects/Growshi8HostPanel.png",
+      "projects/Growshi1Dashboard.png",
+      "projects/Growshi2MainMenu.png",
+      "projects/Growshi3LobbyWaiting.png",
+      "projects/Growshi4PlayerLifeStyleCard.png",
+      "projects/Growshi5PlayerBudgetInfo.png",
+      "projects/Growshi6PlayerPlayground.png",
+      "projects/Growshi7PlayerPlayground2.png",
+      "projects/Growshi8HostPanel.png",
     ],
     tags: ["Unity", "Photon PUN 2", "ASP.NET Core", "WebGL"],
     responsibilities: [
@@ -71,7 +71,7 @@ const projects = [
       ],
     ],
     architecture: ["Unity WebGL", "Photon PUN 2", "ASP.NET Core API"],
-    video: "/projects/growshi-gameplay.mp4",
+    video: "projects/growshi-gameplay.mp4",
     links: [{ label: "Website", href: "https://growshigame.com.ua" }],
   },
   {
@@ -135,14 +135,14 @@ const projects = [
     description:
       "A compact arcade runner built around level progression, precise control and player skin selection.",
     image:
-      "/public/projects/Cuberacer1Logo.jpg",
+      "public/projects/Cuberacer1Logo.jpg",
       gallery: [
-        "/projects/Cuberacer1Logo.jpg",
-        "/projects/Cuberacer2.png",
-        "/projects/Cuberacer3.png",
-        "/projects/Cuberacer4.png",
-        "/projects/Cuberacer5.png",
-        "/projects/Cuberacer6.png",
+        "projects/Cuberacer1Logo.jpg",
+        "projects/Cuberacer2.png",
+        "projects/Cuberacer3.png",
+        "projects/Cuberacer4.png",
+        "projects/Cuberacer5.png",
+        "projects/Cuberacer6.png",
       ],
     tags: ["Unity", "C#", "PC"],
     responsibilities: [
@@ -166,7 +166,7 @@ const projects = [
       ],
     ],
     architecture: ["Unity", "C# Gameplay", "Level Flow"],
-    video: "/projects/cuberacer-gameplay.mp4",
+    video: "projects/cuberacer-gameplay.mp4",
     links: [{ label: "Play demo", href: "https://1padun.itch.io/cuberacer" }],
   },
 ];
