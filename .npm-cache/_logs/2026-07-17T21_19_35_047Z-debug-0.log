@@ -1,0 +1,697 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Padun\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.4.0
+2 info using node@v22.15.1
+3 silly config load:file:C:\Users\Padun\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Courses\Work\GitHubPortfolioV2\.npmrc
+5 silly config load:file:C:\Users\Padun\.npmrc
+6 silly config load:file:C:\Users\Padun\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install gh-pages
+8 verbose argv "install" "--save-dev" "gh-pages"
+9 verbose logfile logs-max:10 dir:D:\Courses\Work\GitHubPortfolioV2\.npm-cache\_logs\2026-07-17T21_19_35_047Z-
+10 verbose logfile D:\Courses\Work\GitHubPortfolioV2\.npm-cache\_logs\2026-07-17T21_19_35_047Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest gh-pages@*
+16 silly packumentCache full:https://registry.npmjs.org/gh-pages cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+18 http fetch GET 200 https://registry.npmjs.org/gh-pages 416ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/gh-pages set size:undefined disposed:false
+20 silly placeDep ROOT gh-pages@6.3.0 OK for: githubportfoliov2@0.0.0 want: *
+21 silly fetch manifest async@^3.2.4
+22 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+23 silly fetch manifest globby@^11.1.0
+24 silly packumentCache full:https://registry.npmjs.org/globby cache-miss
+25 silly fetch manifest fs-extra@^11.1.1
+26 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+27 silly fetch manifest commander@^13.0.0
+28 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+29 silly fetch manifest filenamify@^4.3.0
+30 silly packumentCache full:https://registry.npmjs.org/filenamify cache-miss
+31 silly fetch manifest find-cache-dir@^3.3.1
+32 silly packumentCache full:https://registry.npmjs.org/find-cache-dir cache-miss
+33 silly fetch manifest email-addresses@^5.0.0
+34 silly packumentCache full:https://registry.npmjs.org/email-addresses cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/async 71ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/async set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/fs-extra 152ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/globby 155ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/globby set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/commander 187ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/email-addresses 375ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/email-addresses set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/find-cache-dir 378ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/find-cache-dir set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/filenamify 379ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/filenamify set size:undefined disposed:false
+49 silly placeDep ROOT async@3.2.6 OK for: gh-pages@6.3.0 want: ^3.2.4
+50 silly placeDep ROOT commander@13.1.0 OK for: gh-pages@6.3.0 want: ^13.0.0
+51 silly placeDep ROOT email-addresses@5.0.0 OK for: gh-pages@6.3.0 want: ^5.0.0
+52 silly placeDep ROOT filenamify@4.3.0 OK for: gh-pages@6.3.0 want: ^4.3.0
+53 silly placeDep ROOT find-cache-dir@3.3.2 OK for: gh-pages@6.3.0 want: ^3.3.1
+54 silly placeDep ROOT fs-extra@11.3.6 OK for: gh-pages@6.3.0 want: ^11.1.1
+55 silly placeDep ROOT globby@11.1.0 OK for: gh-pages@6.3.0 want: ^11.1.0
+56 silly fetch manifest strip-outer@^1.0.1
+57 silly packumentCache full:https://registry.npmjs.org/strip-outer cache-miss
+58 silly fetch manifest trim-repeated@^1.0.0
+59 silly packumentCache full:https://registry.npmjs.org/trim-repeated cache-miss
+60 silly fetch manifest filename-reserved-regex@^2.0.0
+61 silly packumentCache full:https://registry.npmjs.org/filename-reserved-regex cache-miss
+62 silly fetch manifest pkg-dir@^4.1.0
+63 silly packumentCache full:https://registry.npmjs.org/pkg-dir cache-miss
+64 silly fetch manifest make-dir@^3.0.2
+65 silly packumentCache full:https://registry.npmjs.org/make-dir cache-miss
+66 silly fetch manifest commondir@^1.0.1
+67 silly packumentCache full:https://registry.npmjs.org/commondir cache-miss
+68 silly fetch manifest graceful-fs@^4.2.0
+69 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+70 silly fetch manifest jsonfile@^6.0.1
+71 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+72 silly fetch manifest universalify@^2.0.0
+73 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+74 silly fetch manifest slash@^3.0.0
+75 silly packumentCache full:https://registry.npmjs.org/slash cache-miss
+76 silly fetch manifest ignore@^5.2.0
+77 silly packumentCache full:https://registry.npmjs.org/ignore cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/pkg-dir 53ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/pkg-dir set size:undefined disposed:false
+80 silly fetch manifest merge2@^1.4.1
+81 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/commondir 66ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/commondir set size:undefined disposed:false
+84 silly fetch manifest dir-glob@^3.0.1
+85 silly packumentCache full:https://registry.npmjs.org/dir-glob cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/graceful-fs 72ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+88 silly fetch manifest fast-glob@^3.2.9
+89 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/merge2 53ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/merge2 set size:undefined disposed:false
+92 silly fetch manifest array-union@^2.1.0
+93 silly packumentCache full:https://registry.npmjs.org/array-union cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/dir-glob 48ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/dir-glob set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/universalify 124ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/universalify set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/slash 153ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/slash set size:undefined disposed:false
+100 http fetch GET 200 https://registry.npmjs.org/jsonfile 155ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:undefined disposed:false
+102 http fetch GET 200 https://registry.npmjs.org/fast-glob 85ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:undefined disposed:false
+104 http fetch GET 200 https://registry.npmjs.org/array-union 54ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/array-union set size:undefined disposed:false
+106 http fetch GET 200 https://registry.npmjs.org/ignore 162ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/ignore set size:undefined disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/strip-outer 213ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/strip-outer set size:undefined disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/filename-reserved-regex 227ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/filename-reserved-regex set size:undefined disposed:false
+112 http fetch GET 200 https://registry.npmjs.org/trim-repeated 248ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/trim-repeated set size:undefined disposed:false
+114 http fetch GET 200 https://registry.npmjs.org/make-dir 248ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/make-dir set size:undefined disposed:false
+116 silly placeDep ROOT filename-reserved-regex@2.0.0 OK for: filenamify@4.3.0 want: ^2.0.0
+117 silly placeDep ROOT strip-outer@1.0.1 OK for: filenamify@4.3.0 want: ^1.0.1
+118 silly placeDep ROOT trim-repeated@1.0.0 OK for: filenamify@4.3.0 want: ^1.0.0
+119 silly fetch manifest escape-string-regexp@^1.0.2
+120 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+121 silly fetch manifest escape-string-regexp@^1.0.2
+122 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 42ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:undefined disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 43ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:undefined disposed:false
+127 silly placeDep ROOT commondir@1.0.1 OK for: find-cache-dir@3.3.2 want: ^1.0.1
+128 silly placeDep ROOT make-dir@3.1.0 OK for: find-cache-dir@3.3.2 want: ^3.0.2
+129 silly placeDep ROOT pkg-dir@4.2.0 OK for: find-cache-dir@3.3.2 want: ^4.1.0
+130 silly fetch manifest find-up@^4.0.0
+131 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/find-up 48ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/find-up set size:undefined disposed:false
+134 silly placeDep ROOT graceful-fs@4.2.11 OK for: fs-extra@11.3.6 want: ^4.2.0
+135 silly placeDep ROOT jsonfile@6.2.1 OK for: fs-extra@11.3.6 want: ^6.0.1
+136 silly placeDep ROOT universalify@2.0.1 OK for: fs-extra@11.3.6 want: ^2.0.0
+137 silly placeDep ROOT array-union@2.1.0 OK for: globby@11.1.0 want: ^2.1.0
+138 silly placeDep ROOT dir-glob@3.0.1 OK for: globby@11.1.0 want: ^3.0.1
+139 silly placeDep ROOT fast-glob@3.3.3 OK for: globby@11.1.0 want: ^3.2.9
+140 silly placeDep ROOT ignore@5.3.2 OK for: globby@11.1.0 want: ^5.2.0
+141 silly placeDep ROOT merge2@1.4.1 OK for: globby@11.1.0 want: ^1.4.1
+142 silly placeDep ROOT slash@3.0.0 OK for: globby@11.1.0 want: ^3.0.0
+143 silly fetch manifest path-type@^4.0.0
+144 silly packumentCache full:https://registry.npmjs.org/path-type cache-miss
+145 silly fetch manifest @nodelib/fs.stat@^2.0.2
+146 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat cache-miss
+147 silly fetch manifest @nodelib/fs.walk@^1.2.3
+148 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk cache-miss
+149 silly fetch manifest glob-parent@^5.1.2
+150 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+151 silly fetch manifest merge2@^1.3.0
+152 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+153 silly fetch manifest micromatch@^4.0.8
+154 silly packumentCache full:https://registry.npmjs.org/micromatch cache-miss
+155 http cache https://registry.npmjs.org/merge2 12ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/merge2 set size:46159 disposed:false
+157 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 52ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk set size:undefined disposed:false
+159 http fetch GET 200 https://registry.npmjs.org/micromatch 57ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/micromatch set size:undefined disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/glob-parent 93ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:undefined disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/path-type 95ms (cache miss)
+164 silly packumentCache full:https://registry.npmjs.org/path-type set size:undefined disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 94ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat set size:undefined disposed:false
+167 silly placeDep ROOT path-type@4.0.0 OK for: dir-glob@3.0.1 want: ^4.0.0
+168 silly placeDep ROOT @nodelib/fs.stat@2.0.5 OK for: fast-glob@3.3.3 want: ^2.0.2
+169 silly placeDep ROOT @nodelib/fs.walk@1.2.8 OK for: fast-glob@3.3.3 want: ^1.2.3
+170 silly placeDep ROOT glob-parent@5.1.2 OK for: fast-glob@3.3.3 want: ^5.1.2
+171 silly placeDep ROOT micromatch@4.0.8 OK for: fast-glob@3.3.3 want: ^4.0.8
+172 silly fetch manifest fastq@^1.6.0
+173 silly packumentCache full:https://registry.npmjs.org/fastq cache-miss
+174 silly fetch manifest @nodelib/fs.scandir@2.1.5
+175 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.scandir cache-miss
+176 silly fetch manifest is-glob@^4.0.1
+177 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+178 silly fetch manifest braces@^3.0.3
+179 silly packumentCache full:https://registry.npmjs.org/braces cache-miss
+180 silly fetch manifest picomatch@^2.3.1
+181 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/fastq 125ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/fastq set size:undefined disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/is-glob 125ms (cache miss)
+185 silly packumentCache full:https://registry.npmjs.org/is-glob set size:undefined disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/braces 126ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/braces set size:undefined disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/picomatch 157ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/picomatch set size:128942 disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.scandir 383ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.scandir set size:undefined disposed:false
+192 silly placeDep ROOT @nodelib/fs.scandir@2.1.5 OK for: @nodelib/fs.walk@1.2.8 want: 2.1.5
+193 silly placeDep ROOT fastq@1.20.1 OK for: @nodelib/fs.walk@1.2.8 want: ^1.6.0
+194 silly fetch manifest run-parallel@^1.1.9
+195 silly packumentCache full:https://registry.npmjs.org/run-parallel cache-miss
+196 silly fetch manifest reusify@^1.0.4
+197 silly packumentCache full:https://registry.npmjs.org/reusify cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/run-parallel 37ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/run-parallel set size:undefined disposed:false
+200 http fetch GET 200 https://registry.npmjs.org/reusify 49ms (cache miss)
+201 silly packumentCache full:https://registry.npmjs.org/reusify set size:undefined disposed:false
+202 silly placeDep ROOT run-parallel@1.2.0 OK for: @nodelib/fs.scandir@2.1.5 want: ^1.1.9
+203 silly fetch manifest queue-microtask@^1.2.2
+204 silly packumentCache full:https://registry.npmjs.org/queue-microtask cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/queue-microtask 44ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/queue-microtask set size:undefined disposed:false
+207 silly placeDep ROOT reusify@1.1.0 OK for: fastq@1.20.1 want: ^1.0.4
+208 silly placeDep ROOT is-glob@4.0.3 OK for: glob-parent@5.1.2 want: ^4.0.1
+209 silly fetch manifest is-extglob@^2.1.1
+210 silly packumentCache full:https://registry.npmjs.org/is-extglob cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/is-extglob 36ms (cache miss)
+212 silly packumentCache full:https://registry.npmjs.org/is-extglob set size:undefined disposed:false
+213 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+214 silly placeDep ROOT braces@3.0.3 OK for: micromatch@4.0.8 want: ^3.0.3
+215 silly placeDep node_modules/micromatch picomatch@2.3.2 OK for: micromatch@4.0.8 want: ^2.3.1
+216 silly fetch manifest fill-range@^7.1.1
+217 silly packumentCache full:https://registry.npmjs.org/fill-range cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/fill-range 48ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/fill-range set size:undefined disposed:false
+220 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+221 silly fetch manifest to-regex-range@^5.0.1
+222 silly packumentCache full:https://registry.npmjs.org/to-regex-range cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/to-regex-range 46ms (cache miss)
+224 silly packumentCache full:https://registry.npmjs.org/to-regex-range set size:undefined disposed:false
+225 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+226 silly fetch manifest is-number@^7.0.0
+227 silly packumentCache full:https://registry.npmjs.org/is-number cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/is-number 51ms (cache miss)
+229 silly packumentCache full:https://registry.npmjs.org/is-number set size:undefined disposed:false
+230 silly placeDep ROOT find-up@4.1.0 OK for: pkg-dir@4.2.0 want: ^4.0.0
+231 silly fetch manifest locate-path@^5.0.0
+232 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+233 silly fetch manifest path-exists@^4.0.0
+234 silly packumentCache full:https://registry.npmjs.org/path-exists cache-miss
+235 http fetch GET 200 https://registry.npmjs.org/locate-path 40ms (cache miss)
+236 silly packumentCache full:https://registry.npmjs.org/locate-path set size:undefined disposed:false
+237 http fetch GET 200 https://registry.npmjs.org/path-exists 44ms (cache miss)
+238 silly packumentCache full:https://registry.npmjs.org/path-exists set size:undefined disposed:false
+239 silly placeDep ROOT locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+240 silly placeDep ROOT path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+241 silly fetch manifest p-locate@^4.1.0
+242 silly packumentCache full:https://registry.npmjs.org/p-locate cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/p-locate 205ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/p-locate set size:undefined disposed:false
+245 silly placeDep ROOT p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+246 silly fetch manifest p-limit@^2.2.0
+247 silly packumentCache full:https://registry.npmjs.org/p-limit cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/p-limit 102ms (cache miss)
+249 silly packumentCache full:https://registry.npmjs.org/p-limit set size:undefined disposed:false
+250 silly placeDep ROOT p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+251 silly fetch manifest p-try@^2.0.0
+252 silly packumentCache full:https://registry.npmjs.org/p-try cache-miss
+253 http fetch GET 200 https://registry.npmjs.org/p-try 39ms (cache miss)
+254 silly packumentCache full:https://registry.npmjs.org/p-try set size:undefined disposed:false
+255 silly placeDep ROOT p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+256 silly placeDep ROOT queue-microtask@1.2.3 OK for: run-parallel@1.2.0 want: ^1.2.2
+257 silly placeDep ROOT escape-string-regexp@1.0.5 OK for: strip-outer@1.0.1 want: ^1.0.2
+258 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+259 silly reify moves {}
+260 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\fsevents
+261 silly reify mark deleted [ 'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\fsevents' ]
+262 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-win32-ia32-msvc
+263 silly reify mark deleted [
+263 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+263 silly reify ]
+264 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-win32-arm64-msvc
+265 silly reify mark deleted [
+265 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+265 silly reify ]
+266 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-openharmony-arm64
+267 silly reify mark deleted [
+267 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-openharmony-arm64'
+267 silly reify ]
+268 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-openbsd-x64
+269 silly reify mark deleted [
+269 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-openbsd-x64'
+269 silly reify ]
+270 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-x64-musl
+271 silly reify mark deleted [
+271 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-x64-musl'
+271 silly reify ]
+272 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-x64-gnu
+273 silly reify mark deleted [
+273 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+273 silly reify ]
+274 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-s390x-gnu
+275 silly reify mark deleted [
+275 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+275 silly reify ]
+276 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-riscv64-musl
+277 silly reify mark deleted [
+277 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+277 silly reify ]
+278 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-riscv64-gnu
+279 silly reify mark deleted [
+279 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+279 silly reify ]
+280 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-ppc64-musl
+281 silly reify mark deleted [
+281 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+281 silly reify ]
+282 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-ppc64-gnu
+283 silly reify mark deleted [
+283 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+283 silly reify ]
+284 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-loong64-musl
+285 silly reify mark deleted [
+285 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+285 silly reify ]
+286 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-loong64-gnu
+287 silly reify mark deleted [
+287 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+287 silly reify ]
+288 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-arm64-musl
+289 silly reify mark deleted [
+289 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+289 silly reify ]
+290 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-arm64-gnu
+291 silly reify mark deleted [
+291 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+291 silly reify ]
+292 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-arm-musleabihf
+293 silly reify mark deleted [
+293 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+293 silly reify ]
+294 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-linux-arm-gnueabihf
+295 silly reify mark deleted [
+295 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+295 silly reify ]
+296 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-freebsd-x64
+297 silly reify mark deleted [
+297 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-freebsd-x64'
+297 silly reify ]
+298 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-freebsd-arm64
+299 silly reify mark deleted [
+299 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-freebsd-arm64'
+299 silly reify ]
+300 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-darwin-x64
+301 silly reify mark deleted [
+301 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-darwin-x64'
+301 silly reify ]
+302 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-darwin-arm64
+303 silly reify mark deleted [
+303 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-darwin-arm64'
+303 silly reify ]
+304 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-android-arm64
+305 silly reify mark deleted [
+305 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-android-arm64'
+305 silly reify ]
+306 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@rollup\rollup-android-arm-eabi
+307 silly reify mark deleted [
+307 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@rollup\\rollup-android-arm-eabi'
+307 silly reify ]
+308 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\win32-ia32
+309 silly reify mark deleted [
+309 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\win32-ia32'
+309 silly reify ]
+310 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\win32-arm64
+311 silly reify mark deleted [
+311 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\win32-arm64'
+311 silly reify ]
+312 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\sunos-x64
+313 silly reify mark deleted [
+313 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\sunos-x64'
+313 silly reify ]
+314 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\openharmony-arm64
+315 silly reify mark deleted [
+315 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\openharmony-arm64'
+315 silly reify ]
+316 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\openbsd-x64
+317 silly reify mark deleted [
+317 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\openbsd-x64'
+317 silly reify ]
+318 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\openbsd-arm64
+319 silly reify mark deleted [
+319 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\openbsd-arm64'
+319 silly reify ]
+320 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\netbsd-x64
+321 silly reify mark deleted [
+321 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\netbsd-x64'
+321 silly reify ]
+322 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\netbsd-arm64
+323 silly reify mark deleted [
+323 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\netbsd-arm64'
+323 silly reify ]
+324 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-x64
+325 silly reify mark deleted [
+325 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-x64'
+325 silly reify ]
+326 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-s390x
+327 silly reify mark deleted [
+327 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-s390x'
+327 silly reify ]
+328 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-riscv64
+329 silly reify mark deleted [
+329 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-riscv64'
+329 silly reify ]
+330 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-ppc64
+331 silly reify mark deleted [
+331 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-ppc64'
+331 silly reify ]
+332 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-mips64el
+333 silly reify mark deleted [
+333 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-mips64el'
+333 silly reify ]
+334 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-loong64
+335 silly reify mark deleted [
+335 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-loong64'
+335 silly reify ]
+336 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-ia32
+337 silly reify mark deleted [
+337 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-ia32'
+337 silly reify ]
+338 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-arm64
+339 silly reify mark deleted [
+339 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-arm64'
+339 silly reify ]
+340 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\linux-arm
+341 silly reify mark deleted [
+341 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\linux-arm'
+341 silly reify ]
+342 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\freebsd-x64
+343 silly reify mark deleted [
+343 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\freebsd-x64'
+343 silly reify ]
+344 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\freebsd-arm64
+345 silly reify mark deleted [
+345 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\freebsd-arm64'
+345 silly reify ]
+346 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\darwin-x64
+347 silly reify mark deleted [
+347 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\darwin-x64'
+347 silly reify ]
+348 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\darwin-arm64
+349 silly reify mark deleted [
+349 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\darwin-arm64'
+349 silly reify ]
+350 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\android-x64
+351 silly reify mark deleted [
+351 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\android-x64'
+351 silly reify ]
+352 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\android-arm64
+353 silly reify mark deleted [
+353 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\android-arm64'
+353 silly reify ]
+354 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\android-arm
+355 silly reify mark deleted [
+355 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\android-arm'
+355 silly reify ]
+356 verbose reify failed optional dependency D:\Courses\Work\GitHubPortfolioV2\node_modules\@esbuild\aix-ppc64
+357 silly reify mark deleted [
+357 silly reify   'D:\\Courses\\Work\\GitHubPortfolioV2\\node_modules\\@esbuild\\aix-ppc64'
+357 silly reify ]
+358 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 0ms (cache hit)
+359 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+360 http cache p-try@https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz 0ms (cache hit)
+361 http cache queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 0ms (cache hit)
+362 http cache p-limit@https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz 0ms (cache hit)
+363 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz 0ms (cache hit)
+364 http cache path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 0ms (cache hit)
+365 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz 0ms (cache hit)
+366 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+367 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz 0ms (cache hit)
+368 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+369 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+370 http cache @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 0ms (cache hit)
+371 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+372 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+373 http cache reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 0ms (cache hit)
+374 http cache run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 0ms (cache hit)
+375 http cache fastq@https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz 0ms (cache hit)
+376 http cache @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 0ms (cache hit)
+377 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+378 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+379 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 0ms (cache hit)
+380 http cache path-type@https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz 0ms (cache hit)
+381 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+382 http cache slash@https://registry.npmjs.org/slash/-/slash-3.0.0.tgz 0ms (cache hit)
+383 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 0ms (cache hit)
+384 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 0ms (cache hit)
+385 http cache dir-glob@https://registry.npmjs.org/dir-glob/-/dir-glob-3.0.1.tgz 0ms (cache hit)
+386 http cache array-union@https://registry.npmjs.org/array-union/-/array-union-2.1.0.tgz 0ms (cache hit)
+387 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 0ms (cache hit)
+388 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.1.tgz 0ms (cache hit)
+389 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+390 http cache pkg-dir@https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz 0ms (cache hit)
+391 http cache commondir@https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz 0ms (cache hit)
+392 http cache make-dir@https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz 0ms (cache hit)
+393 http cache trim-repeated@https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz 0ms (cache hit)
+394 http cache strip-outer@https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz 0ms (cache hit)
+395 http cache filename-reserved-regex@https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz 0ms (cache hit)
+396 http cache globby@https://registry.npmjs.org/globby/-/globby-11.1.0.tgz 0ms (cache hit)
+397 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.6.tgz 0ms (cache hit)
+398 http cache filenamify@https://registry.npmjs.org/filenamify/-/filenamify-4.3.0.tgz 0ms (cache hit)
+399 http cache email-addresses@https://registry.npmjs.org/email-addresses/-/email-addresses-5.0.0.tgz 0ms (cache hit)
+400 http cache find-cache-dir@https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz 1ms (cache hit)
+401 http cache async@https://registry.npmjs.org/async/-/async-3.2.6.tgz 0ms (cache hit)
+402 http cache commander@https://registry.npmjs.org/commander/-/commander-13.1.0.tgz 0ms (cache hit)
+403 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+404 http cache gh-pages@https://registry.npmjs.org/gh-pages/-/gh-pages-6.3.0.tgz 0ms (cache hit)
+405 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+406 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+407 silly tarball no local data for p-try@https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz. Extracting by manifest.
+408 silly tarball no local data for queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz. Extracting by manifest.
+409 silly tarball no local data for p-limit@https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz. Extracting by manifest.
+410 silly tarball no local data for p-locate@https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz. Extracting by manifest.
+411 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz. Extracting by manifest.
+412 silly tarball no local data for locate-path@https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz. Extracting by manifest.
+413 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+414 silly tarball no local data for find-up@https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz. Extracting by manifest.
+415 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+416 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+417 silly tarball no local data for @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz. Extracting by manifest.
+418 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+419 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+420 silly tarball no local data for reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz. Extracting by manifest.
+421 silly tarball no local data for run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz. Extracting by manifest.
+422 silly tarball no local data for fastq@https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz. Extracting by manifest.
+423 silly tarball no local data for @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz. Extracting by manifest.
+424 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+425 silly tarball no local data for micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz. Extracting by manifest.
+426 silly tarball no local data for @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz. Extracting by manifest.
+427 silly tarball no local data for path-type@https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz. Extracting by manifest.
+428 silly tarball no local data for merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz. Extracting by manifest.
+429 silly tarball no local data for slash@https://registry.npmjs.org/slash/-/slash-3.0.0.tgz. Extracting by manifest.
+430 silly tarball no local data for ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz. Extracting by manifest.
+431 silly tarball no local data for fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz. Extracting by manifest.
+432 silly tarball no local data for dir-glob@https://registry.npmjs.org/dir-glob/-/dir-glob-3.0.1.tgz. Extracting by manifest.
+433 silly tarball no local data for array-union@https://registry.npmjs.org/array-union/-/array-union-2.1.0.tgz. Extracting by manifest.
+434 silly tarball no local data for universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz. Extracting by manifest.
+435 silly tarball no local data for jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.1.tgz. Extracting by manifest.
+436 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+437 silly tarball no local data for pkg-dir@https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz. Extracting by manifest.
+438 silly tarball no local data for commondir@https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz. Extracting by manifest.
+439 silly tarball no local data for make-dir@https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz. Extracting by manifest.
+440 silly tarball no local data for trim-repeated@https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz. Extracting by manifest.
+441 silly tarball no local data for strip-outer@https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz. Extracting by manifest.
+442 silly tarball no local data for filename-reserved-regex@https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz. Extracting by manifest.
+443 silly tarball no local data for globby@https://registry.npmjs.org/globby/-/globby-11.1.0.tgz. Extracting by manifest.
+444 silly tarball no local data for filenamify@https://registry.npmjs.org/filenamify/-/filenamify-4.3.0.tgz. Extracting by manifest.
+445 silly tarball no local data for email-addresses@https://registry.npmjs.org/email-addresses/-/email-addresses-5.0.0.tgz. Extracting by manifest.
+446 silly tarball no local data for fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.6.tgz. Extracting by manifest.
+447 silly tarball no local data for find-cache-dir@https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz. Extracting by manifest.
+448 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-3.2.6.tgz. Extracting by manifest.
+449 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-13.1.0.tgz. Extracting by manifest.
+450 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz. Extracting by manifest.
+451 silly tarball no local data for gh-pages@https://registry.npmjs.org/gh-pages/-/gh-pages-6.3.0.tgz. Extracting by manifest.
+452 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 1610ms (cache miss)
+453 http fetch GET 200 https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz 2746ms (cache miss)
+454 http fetch GET 200 https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz 2759ms (cache miss)
+455 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 2903ms (cache miss)
+456 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 2994ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 3178ms (cache miss)
+458 http fetch GET 200 https://registry.npmjs.org/slash/-/slash-3.0.0.tgz 3177ms (cache miss)
+459 http fetch GET 200 https://registry.npmjs.org/dir-glob/-/dir-glob-3.0.1.tgz 3177ms (cache miss)
+460 http fetch GET 200 https://registry.npmjs.org/array-union/-/array-union-2.1.0.tgz 3176ms (cache miss)
+461 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 3223ms (cache miss)
+462 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 3228ms (cache miss)
+463 http fetch GET 200 https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz 3229ms (cache miss)
+464 http fetch GET 200 https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz 3306ms (cache miss)
+465 http fetch GET 200 https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz 3308ms (cache miss)
+466 http fetch GET 200 https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz 3325ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz 3322ms (cache miss)
+468 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 3320ms (cache miss)
+469 http fetch GET 200 https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 3338ms (cache miss)
+470 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz 3369ms (cache miss)
+471 http fetch GET 200 https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 3445ms (cache miss)
+472 http fetch GET 200 https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz 3436ms (cache miss)
+473 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 3440ms (cache miss)
+474 http fetch GET 200 https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz 3464ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 3472ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz 3464ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/filenamify/-/filenamify-4.3.0.tgz 3465ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 3548ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 3581ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz 3993ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.1.tgz 4038ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz 4249ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 4275ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/globby/-/globby-11.1.0.tgz 4317ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 4450ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/gh-pages/-/gh-pages-6.3.0.tgz 4647ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 4951ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz 5360ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 5367ms (cache miss)
+490 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 5375ms (cache miss)
+491 http fetch GET 200 https://registry.npmjs.org/email-addresses/-/email-addresses-5.0.0.tgz 5371ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 5396ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 5613ms (cache miss)
+494 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 5702ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-13.1.0.tgz 5718ms (cache miss)
+496 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.6.tgz 5893ms (cache miss)
+497 http fetch GET 200 https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 6188ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/async/-/async-3.2.6.tgz 8258ms (cache miss)
+499 silly ADD node_modules/is-number
+500 silly ADD node_modules/escape-string-regexp
+501 silly ADD node_modules/queue-microtask
+502 silly ADD node_modules/p-try
+503 silly ADD node_modules/p-limit
+504 silly ADD node_modules/p-locate
+505 silly ADD node_modules/path-exists
+506 silly ADD node_modules/locate-path
+507 silly ADD node_modules/find-up
+508 silly ADD node_modules/to-regex-range
+509 silly ADD node_modules/fill-range
+510 silly ADD node_modules/braces
+511 silly ADD node_modules/is-extglob
+512 silly ADD node_modules/is-glob
+513 silly ADD node_modules/reusify
+514 silly ADD node_modules/run-parallel
+515 silly ADD node_modules/fastq
+516 silly ADD node_modules/@nodelib/fs.scandir
+517 silly ADD node_modules/micromatch
+518 silly ADD node_modules/micromatch/node_modules/picomatch
+519 silly ADD node_modules/glob-parent
+520 silly ADD node_modules/@nodelib/fs.walk
+521 silly ADD node_modules/@nodelib/fs.stat
+522 silly ADD node_modules/path-type
+523 silly ADD node_modules/slash
+524 silly ADD node_modules/merge2
+525 silly ADD node_modules/ignore
+526 silly ADD node_modules/fast-glob
+527 silly ADD node_modules/dir-glob
+528 silly ADD node_modules/array-union
+529 silly ADD node_modules/universalify
+530 silly ADD node_modules/jsonfile
+531 silly ADD node_modules/graceful-fs
+532 silly ADD node_modules/pkg-dir
+533 silly ADD node_modules/make-dir
+534 silly ADD node_modules/commondir
+535 silly ADD node_modules/trim-repeated
+536 silly ADD node_modules/strip-outer
+537 silly ADD node_modules/filename-reserved-regex
+538 silly ADD node_modules/globby
+539 silly ADD node_modules/fs-extra
+540 silly ADD node_modules/find-cache-dir
+541 silly ADD node_modules/filenamify
+542 silly ADD node_modules/email-addresses
+543 silly ADD node_modules/commander
+544 silly ADD node_modules/async
+545 silly ADD node_modules/gh-pages
+546 silly ADD node_modules/fsevents
+547 silly ADD node_modules/@rollup/rollup-win32-ia32-msvc
+548 silly ADD node_modules/@rollup/rollup-win32-arm64-msvc
+549 silly ADD node_modules/@rollup/rollup-openharmony-arm64
+550 silly ADD node_modules/@rollup/rollup-openbsd-x64
+551 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+552 silly ADD node_modules/@rollup/rollup-linux-x64-gnu
+553 silly ADD node_modules/@rollup/rollup-linux-s390x-gnu
+554 silly ADD node_modules/@rollup/rollup-linux-riscv64-musl
+555 silly ADD node_modules/@rollup/rollup-linux-riscv64-gnu
+556 silly ADD node_modules/@rollup/rollup-linux-ppc64-musl
+557 silly ADD node_modules/@rollup/rollup-linux-ppc64-gnu
+558 silly ADD node_modules/@rollup/rollup-linux-loong64-musl
+559 silly ADD node_modules/@rollup/rollup-linux-loong64-gnu
+560 silly ADD node_modules/@rollup/rollup-linux-arm64-musl
+561 silly ADD node_modules/@rollup/rollup-linux-arm64-gnu
+562 silly ADD node_modules/@rollup/rollup-linux-arm-musleabihf
+563 silly ADD node_modules/@rollup/rollup-linux-arm-gnueabihf
+564 silly ADD node_modules/@rollup/rollup-freebsd-x64
+565 silly ADD node_modules/@rollup/rollup-freebsd-arm64
+566 silly ADD node_modules/@rollup/rollup-darwin-x64
+567 silly ADD node_modules/@rollup/rollup-darwin-arm64
+568 silly ADD node_modules/@rollup/rollup-android-arm64
+569 silly ADD node_modules/@rollup/rollup-android-arm-eabi
+570 silly ADD node_modules/@esbuild/win32-ia32
+571 silly ADD node_modules/@esbuild/win32-arm64
+572 silly ADD node_modules/@esbuild/sunos-x64
+573 silly ADD node_modules/@esbuild/openharmony-arm64
+574 silly ADD node_modules/@esbuild/openbsd-x64
+575 silly ADD node_modules/@esbuild/openbsd-arm64
+576 silly ADD node_modules/@esbuild/netbsd-x64
+577 silly ADD node_modules/@esbuild/netbsd-arm64
+578 silly ADD node_modules/@esbuild/linux-x64
+579 silly ADD node_modules/@esbuild/linux-s390x
+580 silly ADD node_modules/@esbuild/linux-riscv64
+581 silly ADD node_modules/@esbuild/linux-ppc64
+582 silly ADD node_modules/@esbuild/linux-mips64el
+583 silly ADD node_modules/@esbuild/linux-loong64
+584 silly ADD node_modules/@esbuild/linux-ia32
+585 silly ADD node_modules/@esbuild/linux-arm64
+586 silly ADD node_modules/@esbuild/linux-arm
+587 silly ADD node_modules/@esbuild/freebsd-x64
+588 silly ADD node_modules/@esbuild/freebsd-arm64
+589 silly ADD node_modules/@esbuild/darwin-x64
+590 silly ADD node_modules/@esbuild/darwin-arm64
+591 silly ADD node_modules/@esbuild/android-x64
+592 silly ADD node_modules/@esbuild/android-arm64
+593 silly ADD node_modules/@esbuild/android-arm
+594 silly ADD node_modules/@esbuild/aix-ppc64
+595 verbose cwd D:\Courses\Work\GitHubPortfolioV2
+596 verbose os Windows_NT 10.0.26200
+597 verbose node v22.15.1
+598 verbose npm  v11.4.0
+599 verbose exit 0
+600 info ok
