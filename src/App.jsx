@@ -212,8 +212,8 @@ function Sidebar({ screen, setScreen }) {
       </nav>
       <a
         className="cv"
-        href="/Andriy_Kovalchuk_Junior_Unity_Developer_CV2.pdf"
-        download
+        href="/Andriy_Kovalchuk_Junior_Unity_Developer_CV3.pdf"
+        download="Andriy_Kovalchuk_Junior_Unity_Developer_CV.pdf"
       >
         <DownloadSimple size={18} /> Download resume
       </a>
