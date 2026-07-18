@@ -135,7 +135,7 @@ const projects = [
     description:
       "A compact arcade runner built around level progression, precise control and player skin selection.",
     image:
-      "public/projects/Cuberacer1Logo.jpg",
+      "projects/Cuberacer1Logo.jpg",
       gallery: [
         "projects/Cuberacer1Logo.jpg",
         "projects/Cuberacer2.png",
@@ -212,7 +212,7 @@ function Sidebar({ screen, setScreen }) {
       </nav>
       <a
         className="cv"
-        href="Andriy_Kovalchuk_Junior_Unity_Developer_CV3.pdf"
+        href="/GitHubPortfolioV2/Andriy_Kovalchuk_Junior_Unity_Developer_CV3.pdf"
         download="Andriy_Kovalchuk_Junior_Unity_Developer_CV.pdf"
       >
         <DownloadSimple size={18} /> Download resume
