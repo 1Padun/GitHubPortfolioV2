@@ -214,6 +214,12 @@ function Sidebar({ screen, setScreen }) {
         className="cv"
         href="/GitHubPortfolioV2/Andriy_Kovalchuk_Junior_Unity_Developer_CV3.pdf"
         download="Andriy_Kovalchuk_Junior_Unity_Developer_CV.pdf"
+        onClick={() => {
+          gtag("event", "download_cv", {
+          event_category: "Resume",
+          event_label: "Download CV",
+        });
+        }}
       >
         <DownloadSimple size={18} /> Download resume
       </a>
