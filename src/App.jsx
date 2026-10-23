@@ -184,7 +184,7 @@ function Sidebar({ screen, setScreen }) {
       <div className="identity">
         <span>JUNIOR UNITY DEVELOPER</span>
         <h1>
-          ANDRIY
+          ANDRII
           <br />
           KOVALCHUK
         </h1>
@@ -212,8 +212,8 @@ function Sidebar({ screen, setScreen }) {
       </nav>
       <a
         className="cv"
-        href="/GitHubPortfolioV2/Andriy_Kovalchuk_Junior_Unity_Developer_CV3.pdf"
-        download="Andriy_Kovalchuk_Junior_Unity_Developer_CV.pdf"
+        href="/GitHubPortfolioV2/Andrii_Kovalchuk_Junior_Unity_Developer_CV.pdf"
+        download="Andrii_Kovalchuk_Junior_Unity_Developer_CV.pdf"
         onClick={() => {
           gtag("event", "download_cv", {
           event_category: "Resume",
@@ -594,7 +594,10 @@ function About() {
         multiplayer WebGL project. I enjoy clear gameplay systems, practical
         multiplayer engineering and collaborative growth.
       </p>
-      <p>Based in Lviv, Ukraine. Ukrainian native, English B1.</p>
+      <p>
+        Based in Karlovy Vary, Czechia, relocating to Brno. Full EU work
+        permit. Ukrainian native, English B1.
+      </p>
     </motion.section>
   );
 }

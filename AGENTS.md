@@ -12,5 +12,5 @@ When implementing from a selected generated mock, treat that image as the source
 - Use the provided portfolio screenshot as the visual source: left rail, featured project panel, project library, and case-study layout.
 - Accent color is restrained crimson/rose: `#F43F5E`, with no neon or cyberpunk treatment.
 - Projects are the primary content. Keep copy concise; avoid skill percentages and progress bars.
-- Portfolio owner: Andriy Kovalchuk, Junior Unity Developer. Real project set: Growshi (commercial multiplayer WebGL board game), Forest of Despair (horror prototype), and Cuberacer (arcade runner).
+- Portfolio owner: Andrii Kovalchuk, Junior Unity Developer (spelling matches the CV; based in Karlovy Vary, Czechia, relocating to Brno). Real project set: Growshi (commercial multiplayer WebGL board game), Forest of Despair (horror prototype), and Cuberacer (arcade runner).
 - Keep project architecture project-specific. Growshi uses Unity WebGL, Photon PUN 2, and ASP.NET Core API; do not claim MySQL for it without an explicit source.
